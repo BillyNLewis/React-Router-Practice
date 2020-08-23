@@ -1,9 +1,20 @@
-body {
-  color: red;
+.App {
+  text-align: center;
 }
-
-@media screen and (min-width: 500px) {
-  body {
-    color: blue;
-  }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(85, 107, 114);
+  color: white;
+}
+nav ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+nav a {
+  color: white;
 }
